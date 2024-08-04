@@ -1,16 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flex</title>
 
     <style>
+        body {
+            background-color: black;
+            color: rgb(174, 34, 34);
+            font-size: 50px;
+        }
 
+        .container {
+            /* margin: 10px; */
+            display: flex;
+            /* flex-direction: row; */
+            /*flex-wrap: wrap-reverse;
+            flex-wrap: wrap;*/
+            flex-grow: 1;
+            /* flex-basis: 500px; */
+            /* flex-shrink: 1; */
+            /* flex-flow: column; */
+            flex-wrap: wrap;
+
+        }
+
+        .one {
+            width: 200px;
+            height: 200px;
+            background-color: antiquewhite;
+            border: 5px solid gray;
+        }
+
+        .two {
+            width: 200px;
+            height: 200px;
+            background-color: antiquewhite;
+            border: 5px solid gray;
+        }
+
+        .three {
+            width: 200px;
+            height: 200px;
+            background-color: antiquewhite;
+            border: 5px solid gray;
+        }
+
+        .four {
+            width: 200px;
+            height: 200px;
+            background-color: antiquewhite;
+            border: 5px solid gray;
+        }
+
+        .five {
+            width: 200px;
+            height: 200px;
+            background-color: antiquewhite;
+            border: 5px solid gray;
+        }
+
+        .six {
+            width: 200px;
+            height: 200px;
+            background-color: antiquewhite;
+            border: 5px solid gray;
+        }
     </style>
-    
+
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="one">div 1</div>
+        <div class="two">div 2</div>
+        <div class="three">div 3</div>
+        <!-- <div class="four">div 4</div>
+        <div class="five">div 5</div>
+        <div class="six">div 6</div> -->
+    </div>
 </body>
+
 </html>
